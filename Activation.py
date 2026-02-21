@@ -165,3 +165,4 @@ def update(frame):
 ani = animation.FuncAnimation(fig, update, frames=20000, interval=20, blit=True, repeat=False) # Increased frames to 20000
 
 plt.show()
+

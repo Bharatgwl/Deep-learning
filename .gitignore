@@ -1,4 +1,6 @@
 #  add env
 .env
-# add jpg 
+
+# add environment 
+/torch_env
 # *.jpg
