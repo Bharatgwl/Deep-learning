@@ -224,8 +224,7 @@ int main()
     auto data = readCSV("pima-indians-diabetes.csv");
 
     vector<Vector> X, Y;
-    splitXY(data, X, Y, data[0].size() - 1);ṇṇ
-
+    splitXY(data, X, Y, data[0].size() - 1);
     normalize(X);
 
     NeuralNetwork nn({(int)X[0].size(), 8, 1}, 0.01);
